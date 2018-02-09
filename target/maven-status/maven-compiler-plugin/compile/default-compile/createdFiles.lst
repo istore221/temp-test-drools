@@ -1,0 +1,9 @@
+com/drools/drools_test_app/MobilePackage.class
+com/drools/drools_test_app/PlatinumPackage.class
+com/drools/drools_test_app/Rule.class
+com/drools/drools_test_app/Offer.class
+com/drools/drools_test_app/Customer.class
+com/drools/drools_test_app/SilverPackage.class
+com/drools/drools_test_app/GoldPackage.class
+com/drools/drools_test_app/Age.class
+com/drools/drools_test_app/PackageFactory.class

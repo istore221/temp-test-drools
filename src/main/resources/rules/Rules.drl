@@ -1,0 +1,25 @@
+template header
+
+packageName
+invokeExpr
+
+
+package rules
+
+import com.drools.drools_test_app.*;
+
+global Offer offer; 
+
+template "offers"
+
+rule "rule @{row.rowNumber}"
+   
+    when
+        $customer: Customer(@{invokeExpr})
+    then
+    		offer.setCustomer($customer);
+    		offer.setPkg(PackageFactory.getPackage("@{packageName}"));
+ 
+	end
+
+end template
